@@ -1,0 +1,14 @@
+entity: PlaylistMovieModel
+items:
+  FirstMovie:
+    id: "2020c235-fee4-4406-9558-8e425b10b6c7"
+    createDate: "1985-12-20"
+    updateDate: "1985-12-21"
+    movieId: "218"
+    playlist: "@FirstPlaylist"
+  MovieToBeDeletedInIT:
+    id: "95b51858-4d7a-4112-a80a-3c23e33161c5"
+    createDate: "1985-12-20"
+    updateDate: "1985-12-21"
+    movieId: "246655"
+    playlist: "@FirstPlaylist"

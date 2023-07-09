@@ -1,0 +1,8 @@
+entity: LikeModel
+items:
+  FirstLike:
+    id: "b44c95d7-295e-402d-82e6-cdb9f9e3a933"
+    createDate: "1985-12-20"
+    updateDate: "1985-12-21"
+    movieId: "550"
+    user: "@FirstUser"

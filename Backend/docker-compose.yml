@@ -1,0 +1,36 @@
+version: "3"
+services:
+    db:
+        image: postgres
+        volumes:
+            - postgres:/data/postgres
+        restart: always
+        ports:
+            - "5432:5432"
+        networks:
+            - backend
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: NeoMovie
+            PGDATA: /data/postgres
+    pgadmin:
+        image: dpage/pgadmin4
+        environment:
+            PGADMIN_DEFAULT_EMAIL: paulic.killian@gmail.com
+            PGADMIN_DEFAULT_PASSWORD: NeoMovie
+            PGADMIN_CONFIG_SERVER_MODE: 'False'
+        restart: always
+        volumes:
+            - pgadmin:/root/.pgadmin
+            - "./SQLServers/servers.json:/pgadmin4/servers.json"
+        ports:
+            - "8000:80"
+        networks:
+            - backend
+
+networks:
+    backend:
+
+volumes:
+    postgres:
+    pgadmin:

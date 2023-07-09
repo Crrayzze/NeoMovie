@@ -1,0 +1,8 @@
+entity: WatchedModel
+items:
+  FirstLike:
+    id: "0a89d548-8cff-44cf-8be9-9509481748d1"
+    createDate: "1985-12-20"
+    updateDate: "1985-12-21"
+    movieId: "218"
+    user: "@FirstUser"

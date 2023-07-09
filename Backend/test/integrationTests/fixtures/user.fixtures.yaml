@@ -1,0 +1,9 @@
+entity: UserModel
+items:
+  FirstUser:
+    id: "c3391698-23f9-4b22-9d0c-365e81460a81"
+    createDate: "1985-12-20"
+    updateDate: "1985-12-21"
+    username: "RWeasley"
+    password: "bigPassword"
+    firstConnection: "false"

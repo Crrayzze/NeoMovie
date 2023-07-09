@@ -1,0 +1,16 @@
+entity: UserGenreModel
+items:
+  FirstGenre:
+    id: "2ed7daf3-3753-4046-8f51-99a66db7758e"
+    createDate: "1985-12-20"
+    updateDate: "1985-12-21"
+    genreId: "16"
+    name: "Animation"
+    user: "@FirstUser"
+  MovieToBeDeletedInIT:
+    id: "5e3e311f-1dda-4c4d-be7d-7ca017444810"
+    createDate: "1985-12-20"
+    updateDate: "1985-12-21"
+    genreId: "35"
+    name: "Comédie"
+    user: "@FirstUser"

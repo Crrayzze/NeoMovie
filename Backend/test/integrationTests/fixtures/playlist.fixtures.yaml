@@ -1,0 +1,8 @@
+entity: PlaylistModel
+items:
+  FirstPlaylist:
+    id: "bc8a9ff4-a7d1-4da9-a2af-425869af0460"
+    createDate: "1985-12-20"
+    updateDate: "1985-12-21"
+    title: "My favorite movies"
+    user: "@FirstUser"
